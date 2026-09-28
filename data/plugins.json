@@ -77473,5 +77473,29 @@
     "verified": false,
     "stars": 0,
     "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-kimi-shell",
+    "name": "dsh-kimi-shell",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/Bill-666code/dsh-kimi-shell",
+    "description": "Turn the dsh-web-mobile session drawer into a kimi-style bottom sheet for phones: full-width 82dvh sheet with grabber, rounded corners and scrim; single-axis open/close animation (its inline translateX choreography is redirected to equivalent translateY in real time); sessions switch without popping the keyboard; zero desktop impact (pointer:coarse gated).",
+    "description_zh": "把 dsh-web-mobile 的左侧会话抽屉改成 kimi 风格底部浮层：100vw×82dvh、圆角+抓手+遮罩，开合单轴滑动动画（内联 translateX 序章实时改道为 translateY），切换/新建会话不误弹输入法，44px 触屏会话行，桌面端零影响。硬依赖 dsh-web-mobile，复用其开合状态机/遮罩/FAB，只覆盖呈现层。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "_license": "MIT",
+    "_topics": [
+      "dsh-plugin",
+      "deepseek-harness",
+      "dsh",
+      "mobile-ui",
+      "bottom-sheet"
+    ],
+    "subcategory": "navigation"
   }
 ]
